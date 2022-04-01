@@ -1,0 +1,31 @@
+.nav{
+    grid-area: nav;
+    background-color: beige;
+    background-color: #E2C275;
+  }
+  
+  .nav div{
+    padding: 5%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .nav div:hover{
+    background-color: #C36A2D;
+  }
+  
+  .nav a{
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* content (profile) */
+  
+  .content{
+    grid-area: content;
+    background-color: #EADCA6;
+  }
+  
+  .profile-img img{ 
+    width: 120px;
+  }
